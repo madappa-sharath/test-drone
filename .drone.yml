@@ -7,6 +7,6 @@ platform:
   arch: arm64
 steps:
   - name: hello-world
-    image: busy-box:stable
+    image: busybox:stable
     commands:
       - echo 'hello-world'
