@@ -1,0 +1,8 @@
+---
+kind: pipeline
+name: hello-world
+steps:
+  - name: hello-world
+    image: busy-box:stable
+    commands:
+      - echo 'hello-world'
