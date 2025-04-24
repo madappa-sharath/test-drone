@@ -2,6 +2,9 @@
 kind: pipeline
 type: docker
 name: hello-world
+platform:
+  os: linux
+  arch: arm64
 steps:
   - name: hello-world
     image: busy-box:stable
